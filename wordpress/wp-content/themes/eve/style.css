@@ -51,24 +51,76 @@ body {
     font-family: 'CaviarDreams', monospace;
 }
 
+/* barre de navigation */
 
 ul {
     list-style-type: none;
-    
+    font-size: 25px;    
 }
+
+li {
+    margin: 0 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black ;
+}
+
+ul li a:hover {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #71a152;
+}
+
 
 #menu-menu-principal {
     display: flex;
-    border: black 1px solid;
     border-radius: 15px;
     padding: 2vw;
     justify-content: flex-end;
+    box-shadow: rgba(0, 0, 0, 0.25) 2.6px 2.6px 3.4px;
 }
 
 #menu-bas-de-page {
     text-align: center;
+    font-size: 16px;
 }
 
 .menu-bas-de-page {
     text-align: center;
+}
+
+/* presentation */
+
+.presentation {
+    display:flex;  
+}
+
+.logo {
+    object-fit:cover;
+    margin: 0 1rem 0 0;
+}
+
+.textPresentation {
+    text-align:center;
+}
+
+.h1Eve {
+    color: #71a152;
+    font-family: 'GreatDay-Bold', monospace;
+    font-size: 80px;
+}
+
+.imgJaffa {
+    border-radius:100px;
+    width:10%;position:
+    absolute;top: 12vw;
+    right: 0vw;
+}
+
+.paragrapheKinesio {
+    text-align:justify;
+    background:#DBC472;
+    padding:1vw 2vw;
+    border-radius:0.5vw;
 }

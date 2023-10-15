@@ -1,0 +1,74 @@
+/*
+Theme Name: Eve
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('./fonts/CaviarDreams.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CaviarDreams-Bold';
+    src: url('./fonts/CaviarDreams_Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CaviarDreams-BoldItalic';
+    src: url('./fonts/CaviarDreams_BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CaviarDreams-Italic';
+    src: url('./fonts/CaviarDreams_Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GreatDay-Bold';
+    src: url('./fonts/Great\ Day\ bold\ Personal\ Use.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GreatDay';
+    src: url('./fonts/Great\ Day\ Personal\ Use.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 1vw 20vw;
+    font-family: 'CaviarDreams', monospace;
+}
+
+
+ul {
+    list-style-type: none;
+    
+}
+
+#menu-menu-principal {
+    display: flex;
+    border: black 1px solid;
+    border-radius: 15px;
+    padding: 2vw;
+    justify-content: flex-end;
+}
+
+#menu-bas-de-page {
+    text-align: center;
+}
+
+.menu-bas-de-page {
+    text-align: center;
+}

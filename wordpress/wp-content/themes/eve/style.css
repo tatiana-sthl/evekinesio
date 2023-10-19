@@ -147,3 +147,58 @@ ul li a:hover {
     padding:1vw 2vw;
     border-radius:0.5vw;
 }
+
+@media (max-width: 768px) {
+
+    body {
+        margin: 0.5rem 1.5rem;
+    }
+
+    #menu-menu-principal {
+        justify-content: center;
+    }
+
+    .menu-bas-de-page {
+        font-size: 10px;
+    }
+
+    ul li a {
+        font-size: 0.75rem;
+    }
+
+    li {
+        margin: 0 0.35rem;
+    }
+
+    .presentation {
+        display: block;
+    }
+
+    .logo {
+        width: 100%;
+        margin: 0;
+    }
+
+    .textPresentationTitre {
+        display: block;
+    }
+
+    .h1Eve {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    .h2Eve {
+        font-size: 1rem;
+    }
+
+    .imgJaffa {
+        margin: 0;
+        position: static;
+    }
+
+    .h3Eve {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}

@@ -3,13 +3,17 @@
 <div class="presentation">
   <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logo">
   <div class="textPresentation">
-    <h1 class="h1Eve">Eve Girardot</h1>
-    <h2>Kinésiologie - Humains et Animaux<br>Naturopathie animalière</h2> 
-    <img src="http://evekinesio.fr/wp-content/uploads/2023/10/Capture-decran-2023-10-12-192146.png" alt='Eve' class="imgJaffa">
+    <div class="textPresentationTitre">
+      <div>
+        <h1 class="h1Eve">Eve Girardot</h1>
+        <h2 class="h2Eve">Kinésiologie - Humains et Animaux<br>Naturopathie animalière</h2> 
+      </div>
+      <img src="http://evekinesio.fr/wp-content/uploads/2023/10/logo_eve__1_-removebg-preview.png" alt='Eve' class="imgJaffa">
+    </div>
+    
     <div class="paragrapheKinesio">
-      
-      <h3> La Kinésiologie c’est quoi et qui suis-je ? </h3>
-      <p>
+      <h3 class="h3Eve"> La Kinésiologie c’est quoi et qui suis-je ? </h3>
+      <p class="pEve">
 Un moment que je consacre à votre animal, ou à vous-même, afin de débloquer certaines zones parfois douloureuses tant émotionnellement que physiologiquement.<br>
 
 Imaginez un psy, puis imaginez-le en train de faire des tests sur vos muscles plutôt que de vous faire parler en continu. En enfin imaginez des réequilibrages adaptés à ce que votre corps désire vraiment et voilà, vous avez une brève idée de ce qu’est la Kinésiologie.<br>

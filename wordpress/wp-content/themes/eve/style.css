@@ -53,6 +53,14 @@ body {
 
 /* barre de navigation */
 
+.menu {
+    display: flex;
+    border-radius: 15px;
+    padding: 2vw;
+    justify-content: flex-end;
+    box-shadow: rgba(0, 0, 0, 0.25) 2.6px 2.6px 3.4px;
+}
+
 ul {
     list-style-type: none;
     font-size: 20px;    
@@ -72,20 +80,12 @@ ul li a:hover {
     border-bottom: 2px solid #71a152;
 }
 
-
-#menu-menu-principal {
-    display: flex;
-    border-radius: 15px;
-    padding: 2vw;
-    justify-content: flex-end;
-    box-shadow: rgba(0, 0, 0, 0.25) 2.6px 2.6px 3.4px;
-}
-
-#menu-bas-de-page {
+.site__footer {
     text-align: center;
     font-size: 16px;
     border-top: black solid 1px;
     padding: 1vw;
+    margin: 1vw;
 }
 
 .menu-bas-de-page {
@@ -112,6 +112,7 @@ ul li a:hover {
 
 .textPresentationTitre {
     display: flex;
+    justify-content: center;
 }
 
 .h1Eve {
@@ -154,7 +155,7 @@ ul li a:hover {
         margin: 0.5rem 1.5rem;
     }
 
-    #menu-menu-principal {
+    .menu {
         justify-content: center;
     }
 

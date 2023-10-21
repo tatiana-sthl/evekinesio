@@ -10,11 +10,11 @@
               <span class="line line3"></span>
             </div>  
           <div class="menu-items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">blogs</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#">Presentation</a></li>
+            <li><a href="#">Mes pratiques</a></li>
+            <li><a href="#">Avis</a></li>
+            <li><a href="#">Planning</a></li>
+            <li><a href="#">Me contacter</a></li>
           </div>
         </div>
       </div>

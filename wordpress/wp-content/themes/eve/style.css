@@ -61,6 +61,10 @@ body {
     box-shadow: rgba(0, 0, 0, 0.25) 2.6px 2.6px 3.4px;
 }
 
+.menu-wrapper {
+    display: none;
+}
+
 ul {
     list-style-type: none;
     font-size: 20px;    
@@ -149,14 +153,38 @@ ul li a:hover {
     border-radius:0.5vw;
 }
 
+/*mobile responsive*/
+
 @media (max-width: 768px) {
+    
 
     body {
         margin: 0.5rem 1.5rem;
     }
 
-    .menu {
-        justify-content: center;
+    .menu-menu-principal-container {
+        display: none;
+    }
+
+    .menu-wrapper {
+        display: block;
+    }
+
+    .menu-wrapper .desktop-menu {
+        display: none;
+    }
+    
+    .menu-wrapper.active .desktop-menu {
+        display: block;
+    }
+
+
+    .bar {
+        width: 30px; /* Largeur des barres */
+        height: 3px; /* Hauteur des barres */
+        background-color: #333; /* Couleur des barres */
+        margin: 6px 0; /* Marge entre les barres */
+        transition: 0.4s; /* Animation de transition pour les barres */
     }
 
     .menu-bas-de-page {
@@ -203,3 +231,4 @@ ul li a:hover {
         font-size: 0.8rem;
     }
 }
+

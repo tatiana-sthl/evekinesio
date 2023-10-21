@@ -10,3 +10,9 @@ register_nav_menus( array(
 	'main' => 'Menu Principal',
 	'footer' => 'Bas de page',
 ) );
+
+// Lier le code js du menu avec le fichier php 
+function add_script_mobilemenu() {
+    wp_enqueue_script('mobilemenu', get_template_directory_uri() . '/js/mobilemenu.js', array('jquery'), '1.0', true);
+}
+add_action('wp_enqueue_scripts', 'add_script_mobilemenu');

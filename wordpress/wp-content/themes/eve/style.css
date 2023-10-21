@@ -162,6 +162,10 @@ ul li a:hover {
         margin: 0rem 1.5rem;
     }
 
+    .menu-menu-container {
+        display: none;
+    }
+
     .menu-menu-principal-container {
         display: none;
     }

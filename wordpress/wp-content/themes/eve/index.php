@@ -1,25 +1,28 @@
 <?php get_header(); ?>
 
-<nav>
-      <div class="navbar">
-        <div class="containermenu nav-containermenu">
-            <input class="checkbox" type="checkbox" name="" id="" />
-            <div class="hamburger-lines">
-              <span class="line line1"></span>
-              <span class="line line2"></span>
-              <span class="line line3"></span>
-            </div>  
-          <div class="menu-items">
-            <li><a href="#">Presentation</a></li>
-            <li><a href="#">Mes pratiques</a></li>
-            <li><a href="#">Avis</a></li>
-            <li><a href="#">Planning</a></li>
-            <li><a href="#">Me contacter</a></li>
-          </div>
-        </div>
-      </div>
-    </nav>
+<div>
+  <h1>Test</h1>
+</div>
 
+<nav>
+  <div class="navbar">
+    <div class="containermenu nav-containermenu">
+        <input class="checkbox" type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>  
+      <div class="menu-items">
+        <li><a href="#">Presentation</a></li>
+        <li><a href="#">Mes pratiques</a></li>
+        <li><a href="#">Avis</a></li>
+        <li><a href="#">Planning</a></li>
+        <li><a href="#">Me contacter</a></li>
+      </div>
+    </div>
+  </div>
+</nav>
 
 <div class="presentation">
   <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logo">

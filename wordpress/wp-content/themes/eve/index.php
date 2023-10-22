@@ -40,9 +40,6 @@
 
         Et moi, je suis simplement une amoureuse des animaux depuis toujours,. Diplômée à la base dans le domaine équestre j’ai finalement perdu de vue ce monde cher à mes yeux quelque temps. Et cela m’a fait comprendre une chose... que je voulais retourner auprès d’eux et de manière efficace pour leur bien-être.<br></p>
     </div>
-    <div>
-      <h1>Test</h1>
-    </div>
     
   </div>
   

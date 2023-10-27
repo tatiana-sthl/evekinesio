@@ -218,30 +218,29 @@ ul li a:hover {
     width: 80%;
     text-align: justify;
     line-height: 1.5em;
-}
-
-.raisons {
     background-image: url(http://evekinesio.fr/wp-content/uploads/2023/10/greenbg.png);
-    background-size: cover;
-    background-position: center center;
+    background-size:50%;
+    background-repeat: no-repeat;
+    overflow: visible;
+    background-position: right bottom;
     text-align: center;
-    padding: 20px;
 }
 
-.raisons h3 {
+
+.pPratiques h3 {
     text-align: center;
 }
 
 .raisonsListe {
-    list-style: none; /* Supprime les puces de la liste */
-    padding: 0; /* Supprime le remplissage de la liste */
-    margin: 0; /* Supprime la marge de la liste */
+    list-style: none; 
+    padding: 0;
+    margin: 0;
     display: inline-block;
 }
 
 .liste-raisons li {
-    text-align: left; /* Aligne le texte des éléments de la liste à gauche */
-    margin: 10px 0; /* Espacement vertical entre les éléments de la liste */
+    text-align: left; 
+    margin: 10px 0;
   }
 
 /*mobile responsive*/

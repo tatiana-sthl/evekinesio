@@ -45,4 +45,34 @@
   
 </div>
 
+<blockquote class="otro-blockquote">
+Lorsque nous mettons des mots sur des maux, les dits maux deviennent des mots dits et cessent d'être maudits.
+  <span>Guy CORNEAU</span>
+</blockquote>
+
+
+
+<div class="pratiques">
+  <div class="textPratiques">
+    <div class='containerImg'>
+    <img src="http://evekinesio.fr/wp-content/uploads/2023/10/img2-1.png" alt="seance" class="imgHuman"/>
+
+    </div>
+    <div class="pPratiques">
+      <p>
+        Que l'on appartienne au monde animal ou au monde des hommes, voilà le principe même de la kinésiologie : trouver les mots pour les maux. Mais il est évident que les mots sont parfois difficiles à trouver car on ne "sait" tout simplement pas d'où provient notre mal.L'avantage de la kinésio c'est que l'on interroge pas en premier le "savoir", le cerveau. Non, on interroge plutôt la mémoire musculaire.Notre corps enregistre tout. Il se souvient de tout même si le cerveau l'a "oublié". Et c'est grâce à cette mémoire musculaire que l'on retrouve les mots qui nous ont blessé.Une fois retrouvés, il devient alors, plus facile de libérer le corps et l'esprit pour tendre vers le mieux-être.
+      </p>
+      <ul>
+        <li></li>
+
+      </ul>
+    </div>
+    
+  </div>
+  <div class="prices">
+
+  </div>
+</div>
+
+
 <?php get_footer(); ?>

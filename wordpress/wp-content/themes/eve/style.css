@@ -241,9 +241,13 @@ ul li a:hover {
 .liste-raisons li {
     text-align: left; 
     margin: 10px 0;
-  }
+}
 
+
+
+/*******************/
 /*mobile responsive*/
+/*******************/
 
 @media (max-width: 768px) {
     

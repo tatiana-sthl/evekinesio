@@ -435,5 +435,30 @@ ul li a:hover {
         text-align: center;
         font-size: 0.8rem;
     }
+
+    .textPratiques {
+        display: block;
+    }
+
+    .containerImg {
+        height: auto;
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .pPratiques {
+        background-size: 100%;
+        background-position: center bottom;
+        margin: 1em 0 1em 2em;
+    }
+
+    .pPratiques p {
+        display: none;
+    }
+
+    .raisonsListe {
+        font-size: 16px;
+        font-weight: 600;
+    }
 }
 

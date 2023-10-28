@@ -83,6 +83,11 @@ Lorsque nous mettons des mots sur des maux, les dits maux deviennent des mots di
   </div>
 </div>
 
-<?php echo do_shortcode('[contact-form-7 id="0db345e" title="Formulaire de contact 1"]'); ?>
+<!-- <div class="contact">
+  <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logoContact">
+  <?php echo do_shortcode('[wpforms id="158" title="false"]'); ?>
+
+</div> -->
+
 
 <?php get_footer(); ?>

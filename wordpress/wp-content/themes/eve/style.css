@@ -243,6 +243,14 @@ ul li a:hover {
     margin: 10px 0;
 }
 
+.contact {
+    display: flex;
+}
+
+.logoContact {
+    width: 25%;
+}
+
 
 
 /*******************/

@@ -20,6 +20,11 @@
   </div>
 </nav>
 
+<div>
+<img src="http://evekinesio.fr/wp-content/uploads/2023/11/fbgreen.jpg" alt="logo insta" class="logors" />
+  <img src="http://evekinesio.fr/wp-content/uploads/2023/11/instagreen.jpg" alt="logo fb" class="logors" />
+</div>
+
 <div id="presentation" class="presentation">
   <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logo">
   <div class="textPresentation">

@@ -20,9 +20,13 @@
   </div>
 </nav>
 
-<div>
-<img src="http://evekinesio.fr/wp-content/uploads/2023/11/fbgreen.jpg" alt="logo insta" class="logors" />
-  <img src="http://evekinesio.fr/wp-content/uploads/2023/11/instagreen.jpg" alt="logo fb" class="logors" />
+<div class="containerrs">
+  <a href="https://www.facebook.com/eve.kinesio">
+    <img src="http://evekinesio.fr/wp-content/uploads/2023/11/fbgreen.jpg" alt="logo fb" class="logors" />
+  </a>
+  <a href="https://www.instagram.com/eve.kinesio/">
+    <img src="http://evekinesio.fr/wp-content/uploads/2023/11/instagreen.jpg" alt="logo insta" class="logors" />
+  </a>
 </div>
 
 <div id="presentation" class="presentation">

@@ -51,6 +51,10 @@ body {
     font-family: 'CaviarDreams', monospace;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* barre de navigation */
 
 .menu {
@@ -97,7 +101,17 @@ ul li a:hover {
     text-align: center;
 }
 
+.containerrs {
+    position: absolute;
+    top: 80px;
+    margin-left: 2rem;
+}
 
+.logors {
+    width: 4%;    
+    object-fit: contain;
+    border-radius: 30px;
+}
 
 
 /* presentation */

@@ -78,9 +78,15 @@ Lorsque nous mettons des mots sur des maux, les dits maux deviennent des mots di
     </div>
     
   </div>
-  <div class="prices">
+</div>
 
-  </div>
+<blockquote class="otro-blockquote">
+Les biens et les maux qui nous arrivent ne nous touchent pas selon leur grandeur, mais selon notre sensibilité.
+  <span>François de LA ROCHEFOUCAULD</span>
+</blockquote>
+
+<div class="prices">
+
 </div>
 
 <!-- <div class="contact">

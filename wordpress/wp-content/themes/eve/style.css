@@ -279,11 +279,46 @@ ul li a:hover {
 .prices {
     display: flex;
     background-color: #DBC472;
-    border-radius: 15px;
+    border-radius: 120px;
+}
+
+.textPrices {
+    margin:  1rem 0 1rem 4rem;
+}
+
+.textPrices h1 {
+    color: antiquewhite;
 }
 
 .priceDetails {
     display: flex;
+}
+
+.priceDetails p {
+    margin-right: 2rem;
+    text-align: justify;
+}
+
+.priceDetails h3 {
+    color:white;
+}
+
+.numberPrice {
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 1.5rem;
+}
+
+.containerImgPrices {
+    width: 75%;
+    height: 750px;
+    border-radius: 130px;
+    overflow: hidden;
+}
+
+.oneline {
+    text-align: center;
 }
 
 
@@ -513,5 +548,39 @@ ul li a:hover {
         font-size: 16px;
         font-weight: 600;
     }
+
+    .prices {
+        display: block;
+    }
+
+    .textPrices {
+        margin: 0;
+    }
+
+    .textPrices h1 {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .priceDetails {
+        display: block;
+        text-align: center;
+    }
+
+    .priceDetails p {
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    .numberPrice {
+        text-align: center !important;
+        margin-bottom: 3rem!important;
+    }
+
+    .containerImgPrices {
+        height: auto;
+        width: 100%;
+        border-radius: 120px;
+    }
+
 }
 

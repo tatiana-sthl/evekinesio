@@ -55,10 +55,9 @@
 </div>
 
 <blockquote class="otro-blockquote">
-Lorsque nous mettons des mots sur des maux, les dits maux deviennent des mots dits et cessent d'être maudits.
+  Lorsque nous mettons des mots sur des maux, les dits maux deviennent des mots dits et cessent d'être maudits.
   <span>Guy CORNEAU</span>
 </blockquote>
-
 
 
 <div id="pratiques" class="pratiques">
@@ -90,12 +89,35 @@ Lorsque nous mettons des mots sur des maux, les dits maux deviennent des mots di
 </div>
 
 <blockquote class="otro-blockquote">
-Les biens et les maux qui nous arrivent ne nous touchent pas selon leur grandeur, mais selon notre sensibilité.
+  Les biens et les maux qui nous arrivent ne nous touchent pas selon leur grandeur, mais selon notre sensibilité.
   <span>François de LA ROCHEFOUCAULD</span>
 </blockquote>
 
 <div class="prices">
+  <div class="textPrices">
+    <h1>Ce que je vous propose</h1>
+    <div class="priceDetails">
+      <p>Séance de kinésiologie animale : choix d'un objectif de travail / test sur l'animal en écoute tissulaire (VS test musculaire chez l'homme) / détection des points bloquants emotionnels ou physiques / réequilibrage selon ce que le corps souhaite (multiples réequilibrages, émotionnels et physique)</p>
+      <p>50€</p>
+    </div>
+    <div class="priceDetails">
+      <p>Séance de cranio sacrée : méthode issue de l'osteopathie fluidique. basée sur l'écoute de la micro-mobilité des structures osseuses du crâne, des vertèbres et du sacrum ainsi que des fascias. Obj: redonner la possibilité aux os leurs capacités d'auto régulation et ainsi se libérer du stress grâce à la remise en marche correcte du liquide céphalo rachidien et des circuits lymphatiques</p>
+      <p>35€</p>
+    </div>
+    <div class="priceDetails">
+      <p>Séance de Touch for health : méthode qui permet de réequilibrer tous les méridiens du corps et leurs muscles associés grâce aux différents tests musculaires. Relance l'énergie dans chaque méridien en besoin et un méridien influe des muscles, des parties du corps entier, mais aussi des organes et surtout des émotions, adapté aussi pour les animaux</p>
+      <p>45€</p>
+    </div>
+    <div class="priceDetails">
+      <p>Séance de naturopathie animale : bilan complet de l'animal , recherche des meilleures solutions adaptées à lui et conseils en naturopathie (attention cela ne remplace en aucun cas un traitement administré par un vétérinaire)</p>
+      <p>45€</p>
+    </div>
+    <p>Prix dégressifs si plusieurs séances ou plusieurs animaux à faire</p>
 
+  </div>
+  <div class="imgPrices">
+    <img src="http://evekinesio.fr/wp-content/uploads/2023/10/img2-1.png" alt="seance" class="imgHuman"/>
+  </div>
 </div>
 
 <!-- <div class="contact">

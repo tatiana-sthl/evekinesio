@@ -103,7 +103,7 @@ ul li a:hover {
 
 .containerrs {
     position: absolute;
-    top: 40px;
+    top: 50px;
     margin-left: 2rem;
 }
 
@@ -207,6 +207,11 @@ ul li a:hover {
   margin-top:1em;
 }
 
+
+/*************/
+/* pratiques */
+/*************/
+
 .pratiques {
     display: flex;
 }
@@ -265,6 +270,20 @@ ul li a:hover {
 
 .logoContact {
     width: 25%;
+}
+
+/********/
+/*prices*/
+/********/
+
+.prices {
+    display: flex;
+    background-color: #DBC472;
+    border-radius: 15px;
+}
+
+.priceDetails {
+    display: flex;
 }
 
 

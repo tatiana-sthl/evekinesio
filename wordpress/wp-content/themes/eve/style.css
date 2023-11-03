@@ -103,7 +103,7 @@ ul li a:hover {
 
 .containerrs {
     position: absolute;
-    top: 80px;
+    top: 40px;
     margin-left: 2rem;
 }
 
@@ -278,6 +278,16 @@ ul li a:hover {
 
     body {
         margin: 0rem 1.5rem;
+    }
+
+    .containerrs {
+        text-align: center;
+        margin-right: 4rem;
+        top : 10px;
+    }
+
+    .logors {
+        width: 15%;
     }
 
     .menu-menu-container {

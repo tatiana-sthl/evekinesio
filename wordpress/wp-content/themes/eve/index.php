@@ -11,7 +11,7 @@
         </div>  
       <div class="menu-items">
         <li><a href="#">Presentation</a></li>
-        <li><a href="#">Mes pratiques</a></li>
+        <li><a href="#pratiques">Mes pratiques</a></li>
         <li><a href="#">Avis</a></li>
         <li><a href="#">Planning</a></li>
         <li><a href="#">Me contacter</a></li>
@@ -131,6 +131,8 @@
     <img src="http://evekinesio.fr/wp-content/uploads/2023/11/eve.png" alt="seance" class="imgHuman"/>
   </div>
 </div>
+
+
 
 <!-- <div class="contact">
   <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logoContact">

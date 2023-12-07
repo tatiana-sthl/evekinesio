@@ -132,21 +132,33 @@
   </div>
 </div>
 
-<div class="rdv">
+<!-- <div class="rdv">
   <h1>Prendre rendez-vous</h1>
-  <!-- Début de widget en ligne Calendly -->
   <div class="calendly-inline-widget" data-url="https://calendly.com/evegirardot/seance-de-kinesiologie?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=71a152" style="min-width:320px;height:700px;"></div>
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <!-- Fin de widget en ligne Calendly -->
-  <!-- Début de widget en ligne Calendly -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/evegirardot/seance-de-kinesiologie-troyes?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=dbc472" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Fin de widget en ligne Calendly -->
-<!-- Début de widget en ligne Calendly -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/evegirardot/seance-de-kinesiologie-dijon?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=333333" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Fin de widget en ligne Calendly -->
+  <div class="calendly-inline-widget" data-url="https://calendly.com/evegirardot/seance-de-kinesiologie-troyes?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=dbc472" style="min-width:320px;height:700px;"></div>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <div class="calendly-inline-widget" data-url="https://calendly.com/evegirardot/seance-de-kinesiologie-dijon?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=333333" style="min-width:320px;height:700px;"></div>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</div> -->
+
+<div class="rdv">
+  <h1>Prendre rendez-vous</h1>
+  
+  <!-- Boutons pour chaque lieu -->
+  <div id="calendly-buttons">
+    <button onclick="showCalendly('seance-de-kinesiologie')">La Rochelle</button>
+    <button onclick="showCalendly('seance-de-kinesiologie-troyes')">Troyes</button>
+    <button onclick="showCalendly('seance-de-kinesiologie-dijon')">Dijon</button>
+  </div>
+
+  <!-- Le widget Calendly sera chargé ici -->
+  <div id="calendly-widget">
+    <div class="calendly-inline-widget" data-url="https://calendly.com/evegirardot/seance-de-kinesiologie?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=71a152" style="min-width:320px;height:700px;"></div>
+  </div>
+
 </div>
+
 
 
 

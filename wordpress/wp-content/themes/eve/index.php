@@ -141,16 +141,18 @@
   <div class="lieux">
     <!-- Boutons pour chaque lieu -->
     <div id="calendly-buttons">
-      <button onclick="showCalendly('seance-de-kinesiologie')">Je prends rdv en Charente-Maritime</button>
-      <button onclick="showCalendly('seance-de-kinesiologie-troyes')">Je prends rdv dans l'Aube</button>
-      <button onclick="showCalendly('seance-de-kinesiologie-dijon')">Je prends rdv en Côte-d'Or</button>
+      <button class="buttons-aube" onclick="showCalendly('seance-de-kinesiologie-troyes')">• Aube •</button>
+      <button class="buttons-charente defaul" onclick="showCalendly('seance-de-kinesiologie')">• Charente-Maritime •</button>
+      <button class="buttons-cote" onclick="showCalendly('seance-de-kinesiologie-dijon')">• Côte-d'Or •</button>
     </div>
 
     <!-- Le widget Calendly sera chargé ici -->
     <div id="calendly-widget"></div>
   </div>
-  <h1>Prendre rendez-vous</h1>
-  <p><i>Je me déplace à votre domicile, pensez à prendre rendez-vous dans le département qui vous concerne.<br>Pour toutes demandes en dehors de ces départements, veuillez me contacter directement par mail.</i></p>
+</div>
+
+<div class="avis">
+  <h1>Avis</h1>
 </div>
 
 

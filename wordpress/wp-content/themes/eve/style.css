@@ -225,6 +225,7 @@ ul li a:hover {
     width: 25%;
     height: 550px;
     border-radius: 130px;
+    box-shadow: rgba(0, 0, 0, 0.25) 2.6px 2.6px 3.4px;
     overflow: hidden;
 }
 
@@ -316,6 +317,7 @@ ul li a:hover {
     height: 750px;
     border-radius: 130px;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 2.6px 2.6px 3.4px;
 }
 
 .oneline {
@@ -335,8 +337,20 @@ ul li a:hover {
     margin-top: 4rem;
 }
 
-#calendly-buttons {
-    
+.buttons-charente,
+.buttons-aube,
+.buttons-cote {
+    margin: 0 2rem;
+    padding: 1rem;
+    font-family: 'CaviarDreams', monospace;
+    font-size: large;
+    font-weight: 900;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 2.6px 2.6px 3.4px;
+    border: none;
+    background-color: #DBC472;
+    color: white;
+    transition: background-color 0.5s;
 }
 
 

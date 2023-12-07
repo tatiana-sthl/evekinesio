@@ -88,11 +88,6 @@
   </div>
 </div>
 
-<blockquote class="otro-blockquote">
-  Les biens et les maux qui nous arrivent ne nous touchent pas selon leur grandeur, mais selon notre sensibilité.
-  <span>François de LA ROCHEFOUCAULD</span>
-</blockquote>
-
 <div class="prices">
   <div class="textPrices">
     <h1>Ce que je vous propose</h1>
@@ -132,31 +127,30 @@
   </div>
 </div>
 
-<!-- <div class="rdv">
-  <h1>Prendre rendez-vous</h1>
-  <div class="calendly-inline-widget" data-url="https://calendly.com/evegirardot/seance-de-kinesiologie?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=71a152" style="min-width:320px;height:700px;"></div>
-  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <div class="calendly-inline-widget" data-url="https://calendly.com/evegirardot/seance-de-kinesiologie-troyes?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=dbc472" style="min-width:320px;height:700px;"></div>
-  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <div class="calendly-inline-widget" data-url="https://calendly.com/evegirardot/seance-de-kinesiologie-dijon?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=333333" style="min-width:320px;height:700px;"></div>
-  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-</div> -->
+<blockquote class="otro-blockquote">
+  Les biens et les maux qui nous arrivent ne nous touchent pas selon leur grandeur, mais selon notre sensibilité.
+  <span>François de LA ROCHEFOUCAULD</span>
+</blockquote>
+
+
 
 <div class="rdv">
   <h1>Prendre rendez-vous</h1>
-  
-  <!-- Boutons pour chaque lieu -->
-  <div id="calendly-buttons">
-    <button onclick="showCalendly('seance-de-kinesiologie')">La Rochelle</button>
-    <button onclick="showCalendly('seance-de-kinesiologie-troyes')">Troyes</button>
-    <button onclick="showCalendly('seance-de-kinesiologie-dijon')">Dijon</button>
-  </div>
+  <p><i>Je me déplace à votre domicile, pensez à prendre rendez-vous dans le département qui vous concerne.<br>Pour toutes demandes en dehors de ces départements, veuillez me contacter directement par mail.</i></p>
 
-  <!-- Le widget Calendly sera chargé ici -->
-  <div id="calendly-widget">
-    <div class="calendly-inline-widget" data-url="https://calendly.com/evegirardot/seance-de-kinesiologie?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=71a152" style="min-width:320px;height:700px;"></div>
-  </div>
+  <div class="lieux">
+    <!-- Boutons pour chaque lieu -->
+    <div id="calendly-buttons">
+      <button onclick="showCalendly('seance-de-kinesiologie')">Je prends rdv en Charente-Maritime</button>
+      <button onclick="showCalendly('seance-de-kinesiologie-troyes')">Je prends rdv dans l'Aube</button>
+      <button onclick="showCalendly('seance-de-kinesiologie-dijon')">Je prends rdv en Côte-d'Or</button>
+    </div>
 
+    <!-- Le widget Calendly sera chargé ici -->
+    <div id="calendly-widget"></div>
+  </div>
+  <h1>Prendre rendez-vous</h1>
+  <p><i>Je me déplace à votre domicile, pensez à prendre rendez-vous dans le département qui vous concerne.<br>Pour toutes demandes en dehors de ces départements, veuillez me contacter directement par mail.</i></p>
 </div>
 
 

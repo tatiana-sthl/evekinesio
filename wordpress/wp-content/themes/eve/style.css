@@ -214,6 +214,7 @@ ul li a:hover {
 
 .pratiques {
     display: flex;
+    margin-bottom: 5rem;
 }
 
 .textPratiques {
@@ -319,6 +320,23 @@ ul li a:hover {
 
 .oneline {
     text-align: center;
+}
+
+/*************/
+/*rendez-vous*/
+/*************/
+
+.rdv {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.lieux {
+    margin-top: 4rem;
+}
+
+#calendly-buttons {
+    
 }
 
 

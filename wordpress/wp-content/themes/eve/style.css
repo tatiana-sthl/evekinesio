@@ -348,12 +348,24 @@ ul li a:hover {
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 2.6px 2.6px 3.4px;
     border: none;
-    background-color: #DBC472;
+    background-color: #333333;
     color: white;
     transition: background-color 0.5s;
 }
 
+.buttons-charente:hover,
+.buttons-aube:hover,
+.buttons-cote:hover {
+    background-color: #DBC472;
+}
 
+.buttons-charente:focus,
+.buttons-aube:focus,
+.buttons-cote:focus {
+    background-color: #DBC472;
+}
+
+  
 
 /*******************/
 /*mobile responsive*/

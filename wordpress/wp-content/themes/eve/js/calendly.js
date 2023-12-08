@@ -1,4 +1,5 @@
 function loadDefaultCalendly() {
+
   var calendlyWidget = document.getElementById('calendly-widget');
   calendlyWidget.innerHTML = '<div class="calendly-inline-widget" data-url="https://calendly.com/evegirardot/seance-de-kinesiologie?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=71a152" style="min-width:320px;height:700px;"></div>';
 
@@ -7,6 +8,7 @@ function loadDefaultCalendly() {
   script.src = 'https://assets.calendly.com/assets/external/widget.js';
   script.async = true;
   document.body.appendChild(script);
+
 }
 
 // Fonction pour changer dynamiquement le calendrier en fonction du lieu sélectionné

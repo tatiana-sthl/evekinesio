@@ -1,26 +1,26 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const testimonials = document.querySelectorAll('.testimonial');
-    const carousel = document.querySelector('.testimonial-carousel');
+    const testimonials = document.querySelector('.testimonial-carousel');
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
+    const testimonialWidth = document.querySelector('.testimonial').offsetWidth + 2 * 16; // Largeur du témoignage + marges
     let currentIndex = 0;
 
     function showTestimonial(index) {
-        testimonials.forEach((testimonial, i) => {
-            testimonial.classList.remove('active');
-            if (i >= index && i < index + 3) {
-                testimonial.classList.add('active');
-            }
-        });
+        const position = -index * testimonialWidth + 'px';
+        testimonials.style.transform = 'translateX(' + position + ')';
     }
 
     function nextTestimonial() {
-        currentIndex = (currentIndex + 1) % (testimonials.length - 2);
+        if (currentIndex < testimonials.children.length - 3) {
+            currentIndex++;
+        }
         showTestimonial(currentIndex);
     }
 
     function prevTestimonial() {
-        currentIndex = (currentIndex - 1 + (testimonials.length - 2)) % (testimonials.length - 2);
+        if (currentIndex > 0) {
+            currentIndex--;
+        }
         showTestimonial(currentIndex);
     }
 

@@ -158,6 +158,33 @@
 
 <div class="avis">
   <h1>Avis</h1>
+  <div class="carousel-container">
+    <div class="testimonial-carousel">
+        <div class="testimonial">
+            <p>Texte du premier témoignage.</p>
+            <p class="author">- Nom de l'auteur</p>
+        </div>
+        <div class="testimonial">
+            <p>Texte du premier témoignage.</p>
+            <p class="author">- Nom de l'auteur</p>
+        </div>
+        <div class="testimonial">
+            <p>Texte du premier témoignage.</p>
+            <p class="author">- Nom de l'auteur</p>
+        </div>
+        <div class="testimonial">
+            <p>Texte du premier témoignage.</p>
+            <p class="author">- Nom de l'auteur</p>
+        </div>
+        <div class="testimonial">
+            <p>Texte du premier témoignage.</p>
+            <p class="author">- Nom de l'auteur</p>
+        </div>
+        <button id="prevBtn">Précédent</button>
+    <button id="nextBtn">Suivant</button>
+    
+    </div>
+</div>
 </div>
 
 

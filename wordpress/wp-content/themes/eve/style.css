@@ -364,7 +364,55 @@ ul li a:hover {
 #button-container label:hover {
     background-color: #DBC472;
 }
-  
+
+
+/*************/
+/*témoignages*/
+/*************/
+
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.testimonial-carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.testimonial {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-right: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.testimonial.active {
+    opacity: 1;
+}
+
+#prevBtn, #nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#prevBtn {
+    left: 0;
+}
+
+#nextBtn {
+    right: 0;
+} 
   
   
 
@@ -624,6 +672,18 @@ ul li a:hover {
         height: auto;
         width: 100%;
         border-radius: 120px;
+    }
+
+    #button-container {
+        display: grid;
+    }
+
+    #button-container label {
+        margin: 1rem;
+    }
+
+    .lieux {
+        margin: 0;
     }
 
 }

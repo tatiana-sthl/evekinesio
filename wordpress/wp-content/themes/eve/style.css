@@ -337,9 +337,12 @@ ul li a:hover {
     margin-top: 4rem;
 }
 
-.buttons-charente,
-.buttons-aube,
-.buttons-cote {
+
+#button-container input[type="radio"] {
+    display: none;
+}
+  
+#button-container label {
     margin: 0 2rem;
     padding: 1rem;
     font-family: 'CaviarDreams', monospace;
@@ -350,21 +353,19 @@ ul li a:hover {
     border: none;
     background-color: #333333;
     color: white;
+    cursor: pointer;
     transition: background-color 0.5s;
 }
-
-.buttons-charente:hover,
-.buttons-aube:hover,
-.buttons-cote:hover {
+  
+#button-container input[type="radio"]:checked + label {
     background-color: #DBC472;
 }
 
-.buttons-charente:focus,
-.buttons-aube:focus,
-.buttons-cote:focus {
+#button-container label:hover {
     background-color: #DBC472;
 }
-
+  
+  
   
 
 /*******************/

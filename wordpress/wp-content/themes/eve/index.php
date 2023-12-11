@@ -140,10 +140,15 @@
 
   <div class="lieux">
     <!-- Boutons pour chaque lieu -->
-    <div id="calendly-buttons">
-      <button class="buttons-aube" onclick="showCalendly('seance-de-kinesiologie-troyes')">• Aube •</button>
-      <button class="buttons-charente defaul" onclick="showCalendly('seance-de-kinesiologie')">• Charente-Maritime •</button>
-      <button class="buttons-cote" onclick="showCalendly('seance-de-kinesiologie-dijon')">• Côte-d'Or •</button>
+    <div id="button-container">
+      <input type="radio" class="buttons" id="charente" name="location" checked>
+      <label for="charente" onclick="showCalendly('seance-de-kinesiologie')">• Charente-Maritime •</label>
+
+      <input type="radio" class="buttons" id="aube" name="location">
+      <label for="aube" onclick="showCalendly('seance-de-kinesiologie-troyes')">• Aube •</label>
+
+      <input type="radio" class="buttons" id="cote" name="location">
+      <label for="cote" onclick="showCalendly('seance-de-kinesiologie-dijon')">• Côte-d'Or •</label>
     </div>
 
     <!-- Le widget Calendly sera chargé ici -->

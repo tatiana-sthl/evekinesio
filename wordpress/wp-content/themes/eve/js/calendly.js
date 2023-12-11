@@ -35,3 +35,4 @@ function showCalendly(selectedPlace) {
 
 // Chargez le calendrier par défaut dès le chargement de la page
 loadDefaultCalendly();
+

@@ -132,8 +132,6 @@
   <span>François de LA ROCHEFOUCAULD</span>
 </blockquote>
 
-<h1>Test avant calendly</h1>
-
 <div class="rdv">
   <h1>Prendre rendez-vous</h1>
   <p><i>Je me déplace à votre domicile, pensez à prendre rendez-vous dans le département qui vous concerne.<br>Pour toutes demandes en dehors de ces départements, veuillez me contacter directement par mail.</i></p>
@@ -156,9 +154,7 @@
   </div>
 </div>
 
-<h1>Test après calendly</h1>
-
-<div class="avis">
+<!-- <div class="avis">
   <h1>Avis</h1>
   <div class="carousel-container">
     <div class="testimonial-carousel">
@@ -186,7 +182,7 @@
     <button id="prevBtn">Précédent</button>
     <button id="nextBtn">Suivant</button>
   </div>
-</div>
+</div> -->
 
 
 

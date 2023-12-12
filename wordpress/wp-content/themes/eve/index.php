@@ -132,7 +132,7 @@
   <span>François de LA ROCHEFOUCAULD</span>
 </blockquote>
 
-
+<h1>Test avant calendly</h1>
 
 <div class="rdv">
   <h1>Prendre rendez-vous</h1>
@@ -155,6 +155,8 @@
     <div id="calendly-widget"></div>
   </div>
 </div>
+
+<h1>Test après calendly</h1>
 
 <div class="avis">
   <h1>Avis</h1>

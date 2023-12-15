@@ -128,6 +128,7 @@ ul li a:hover {
 
 .textPresentation {
     text-align:center;
+    margin: 1vw 0;
 }
 
 .textPresentationTitre {
@@ -138,8 +139,9 @@ ul li a:hover {
 .h1Eve {
     color: #71a152;
     font-family: 'GreatDay-Bold', monospace;
-    font-size: 3.5rem;
-    margin-bottom: 0;
+    font-size: 5rem;
+    margin: 0;
+    text-shadow: rgba(0, 0, 0, 0.25) 3px 5px 2px;
 }
 
 .h2Eve {
@@ -155,18 +157,19 @@ ul li a:hover {
 }
 
 .imgJaffa {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 47%;
     margin-top: 2rem;
     position: relative;
-    left:2rem;
 }
 
 .paragrapheKinesio {
     text-align:justify;
     background:#DBC472;
+    margin: 1vw 0;
     padding:1vw 2vw;
     border-radius:0.5vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 2.6px 2.6px 3.4px;
 }
 
 

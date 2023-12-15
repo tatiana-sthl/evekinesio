@@ -149,11 +149,14 @@ ul li a:hover {
 }
 
 .h3Eve {
-    font-size: 1rem;
+    margin:  1rem 0 ;
+    color: antiquewhite;
+    font-size: 2rem;
+
 }
 
 .pEve {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .imgJaffa {

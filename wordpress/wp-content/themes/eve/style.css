@@ -388,6 +388,7 @@ ul li a:hover {
 
 .testimonial-carousel {
     display: flex;
+    margin-left: 2rem;
     transition: transform 0.5s ease-in-out;
 }
 
@@ -399,16 +400,29 @@ ul li a:hover {
     width: 300px; /* Ajustez la largeur selon vos besoins */
     flex: 0 0 auto; /* Empêche le redimensionnement des témoignages */
     box-sizing: border-box; /* Assure que les marges n'augmentent pas la largeur totale */
+    box-shadow: rgba(0, 0, 0, 0.15) 2.6px 2.6px 3.4px;
+
+}
+
+.testimonial p {
+    text-align: justify;
+}
+
+.author {
+    text-align: end!important;
+    font-weight: 900;
 }
 
 #prevBtn, #nextBtn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 18px;
+    font-size: 30px;
+    font-weight: 500;
     cursor: pointer;
     background: none;
     border: none;
+    color: #DBC472 ;
 }
 
 #prevBtn {

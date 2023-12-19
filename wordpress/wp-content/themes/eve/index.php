@@ -145,7 +145,7 @@
       <label for="aube" onclick="showCalendly('seance-de-kinesiologie-troyes')">• Aube •</label>
 
       <input type="radio" class="buttons" id="cote" name="location">
-      <label for="cote" onclick="showCalendly('seance-de-kinesiologie-dijon')">• Côte-d'Or •</label>
+      <label for="cote" onclick="showCalendly('seance-de-kinesiologie-dijon')">• Morbihan •</label>
     </div>
 
     <!-- Le widget Calendly sera chargé ici -->
@@ -153,35 +153,35 @@
   </div>
 </div>
 
-<!-- <div class="avis">
+<div class="avis">
   <h1>Avis</h1>
   <div class="carousel-container">
     <div class="testimonial-carousel">
         <div class="testimonial">
-            <p>Texte du premier témoignage.</p>
-            <p class="author">- Nom de l'auteur</p>
+            <p>Randy et Jean, mes deux chiens, vont mieux depuis que Eve est intervenue. Ils nous font plus confiance et sont plus sereins. Encore un grand merci.</p>
+            <p class="author">- Lucie</p>
         </div>
         <div class="testimonial">
-            <p>Texte du deuxième témoignage.</p>
-            <p class="author">- Nom de l'auteur</p>
+            <p>Après l'intervention de Eve, Papaye, ma chienne, me semble plus paisible le soir, elle a retrouvé aussi le goût de jouer toute seule avec ses jouets. Merci beaucoup pour votre aide.</p>
+            <p class="author">- Christine</p>
         </div>
         <div class="testimonial">
-            <p>Texte du troisième témoignage.</p>
-            <p class="author">- Nom de l'auteur</p>
+            <p>Plus que ravie de la séance de mon Papi de 25 ans ! Suite au passage de Eve, mon cheval est comma apaisé, plus libre dans son esprit et beaucoup plus d'entrain. Une grand merci pour lui ! </p>
+            <p class="author">- Laurie</p>
         </div>
         <div class="testimonial">
-            <p>Texte du quatrième témoignage.</p>
-            <p class="author">- Nom de l'auteur</p>
+            <p>Je n'ai jamais vu Comod, mon chien, dans un tel état de plénitude, d'abandon, de confiance et de calme. La séance fut très enrichissante. Je ne peux que recommander Eve.</p>
+            <p class="author">- Isabelle</p>
         </div>
         <div class="testimonial">
-            <p>Texte du cinquième témoignage.</p>
-            <p class="author">- Nom de l'auteur</p>
+            <p>Eve est intervenue sur mes deux chiens, Paloma et Jaffa, et a su les mettre totalement en confiance. Je n'hésiterai pas à refaire appel à elle pour d'autres problématiques.</p>
+            <p class="author">- Tatiana</p>
         </div>    
     </div>
-    <button id="prevBtn">Précédent</button>
-    <button id="nextBtn">Suivant</button>
+    <button id="prevBtn"><</button>
+    <button id="nextBtn">></button>
   </div>
-</div> -->
+</div>
 
 
 

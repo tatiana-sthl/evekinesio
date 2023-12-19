@@ -166,7 +166,7 @@
             <p class="author">- Christine</p>
         </div>
         <div class="testimonial">
-            <p>Plus que ravie de la séance de mon Papi de 25 ans ! Suite au passage de Eve, mon cheval est comma apaisé, plus libre dans son esprit et beaucoup plus d'entrain. Une grand merci pour lui ! </p>
+            <p>Plus que ravie de la séance de mon Papi de 25 ans !  Suite au passage de Eve, mon cheval est comma apaisé, plus libre dans son esprit et beaucoup plus d'entrain. Une grand merci pour lui ! </p>
             <p class="author">- Laurie</p>
         </div>
         <div class="testimonial">
@@ -184,15 +184,11 @@
 </div>
 
 
-
-
-
-
-<!-- <div class="contact">
+<div class="contact">
+  <h1>Contact</h1>
   <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logoContact">
-  <?php echo do_shortcode('[wpforms id="158" title="false"]'); ?>
-
-</div> -->
+  <?php echo do_shortcode('[wpforms id="183" title="false"]'); ?>
+</div>
 
 
 <?php get_footer(); ?>

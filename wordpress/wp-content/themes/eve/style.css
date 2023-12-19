@@ -272,14 +272,6 @@ ul li a:hover {
     margin: 10px 0;
 }
 
-.contact {
-    display: flex;
-}
-
-.logoContact {
-    width: 25%;
-}
-
 /********/
 /*prices*/
 /********/
@@ -433,8 +425,26 @@ ul li a:hover {
     right: 0;
 }
 
+/*********/
+/*contact*/
+/*********/
 
+.contact {
+    display: flex;
+}
 
+.logoContact {
+    height: 50%
+}
+
+div.wpforms-container-full {
+    margin: 0!important;
+    width: 100%;
+}
+
+div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpforms-container-full button[type=submit]:not(:hover):not(:active), div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active) {
+    background-color: #333333!important;
+}
 
   
   

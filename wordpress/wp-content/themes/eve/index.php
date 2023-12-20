@@ -184,10 +184,12 @@
 </div>
 
 
-<div class="contact">
-  <h1>Contact</h1>
-  <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logoContact">
-  <?php echo do_shortcode('[wpforms id="183" title="false"]'); ?>
+<div>
+  <h1 class="h1Contact">Contact</h1>
+  <div class="contact">
+    <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logoContact">
+    <?php echo do_shortcode('[wpforms id="183" title="false"]'); ?>
+  </div>
 </div>
 
 

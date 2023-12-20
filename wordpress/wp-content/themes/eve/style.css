@@ -429,6 +429,11 @@ ul li a:hover {
 /*contact*/
 /*********/
 
+.h1Contact{
+    text-align: center;
+    margin: 2rem 0;
+}
+
 .contact {
     display: flex;
 }

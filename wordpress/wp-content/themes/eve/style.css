@@ -436,13 +436,17 @@ ul li a:hover {
 
 .contact {
     display: flex;
+    border: #333333 2px solid;
+    border-radius: 15px;
+    padding: 1rem;
 }
 
 .logoContact {
     height: 50%
 }
 
-div.wpforms-container-full {
+
+#wpforms-183 {
     margin: 0!important;
     width: 100%;
 }

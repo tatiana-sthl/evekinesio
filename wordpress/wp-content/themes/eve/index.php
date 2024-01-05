@@ -154,7 +154,8 @@
 </div>
 
 <div class="avis">
-  <h1>Avis</h1>
+  <h1>Témoignages</h1>
+  <p><i>A défaut d'avoir les avis des animaux, je peux au moins vous communiquer ceux de leur propriétaire.</i></p>
   <div class="carousel-container">
     <div class="testimonial-carousel">
         <div class="testimonial">
@@ -166,7 +167,7 @@
             <p class="author">- Christine</p>
         </div>
         <div class="testimonial">
-            <p>Plus que ravie de la séance de mon Papi de 25 ans !  Suite au passage de Eve, mon cheval est comma apaisé, plus libre dans son esprit et beaucoup plus d'entrain. Une grand merci pour lui ! </p>
+            <p>Plus que ravie de la séance de mon Papi de 25 ans !  Suite au passage de Eve, mon cheval est comme apaisé, plus libre dans son esprit et beaucoup plus d'entrain. Une grand merci pour lui ! </p>
             <p class="author">- Laurie</p>
         </div>
         <div class="testimonial">
@@ -182,6 +183,11 @@
     <button id="nextBtn">></button>
   </div>
 </div>
+
+<blockquote class="otro-blockquote">
+Le plus grand bien que nous faisons aux autres hommes n'est pas de leur communiquer notre richesse, mais de leur révéler la leur.
+  <span>Louis LAVELLE</span>
+</blockquote>
 
 
 <div>

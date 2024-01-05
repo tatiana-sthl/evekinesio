@@ -10,8 +10,8 @@
           <span class="line line3"></span>
         </div>  
       <div class="menu-items">
-        <li><a href="#">Presentation</a></li>
-        <li><a href="#pratiques">Mes pratiques</a></li>
+        <li><a href="presentation">Presentation</a></li>
+        <li><a href="pratiques">Mes pratiques</a></li>
         <li><a href="#">Avis</a></li>
         <li><a href="#">Planning</a></li>
         <li><a href="#">Me contacter</a></li>
@@ -20,14 +20,14 @@
   </div>
 </nav>
 
-<div class="containerrs">
+<!-- <div class="containerrs">
   <a href="https://www.facebook.com/eve.kinesio">
     <img src="http://evekinesio.fr/wp-content/uploads/2023/11/fbgreen.jpg" alt="logo fb" class="logors" />
   </a>
   <a href="https://www.instagram.com/eve.kinesio/">
     <img src="http://evekinesio.fr/wp-content/uploads/2023/11/instagreen.jpg" alt="logo insta" class="logors" />
   </a>
-</div>
+</div> -->
 
 <div id="presentation" class="presentation">
   <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logo">
@@ -185,14 +185,14 @@
 </div>
 
 <blockquote class="otro-blockquote">
-Le plus grand bien que nous faisons aux autres hommes n'est pas de leur communiquer notre richesse, mais de leur révéler la leur.
+  Le plus grand bien que nous faisons aux autres hommes n'est pas de leur communiquer notre richesse, mais de leur révéler la leur.
   <span>Louis LAVELLE</span>
 </blockquote>
 
 
 <div>
-  <h1 class="h1Contact">Contact</h1>
   <div class="contact">
+    <h1 class="h1Contact">Contact</h1>
     <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logoContact">
     <?php echo do_shortcode('[wpforms id="183" title="false"]'); ?>
   </div>

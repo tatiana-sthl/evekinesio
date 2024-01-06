@@ -729,5 +729,14 @@ div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpfo
         margin: 0;
     }
 
+    .testimonial-carousel {
+        margin-left: 0;
+    }
+
+    #prevBtn,
+    #nextBtn {
+        position: relative;
+    }
+
 }
 

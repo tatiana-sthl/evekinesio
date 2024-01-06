@@ -105,10 +105,11 @@ ul li a:hover {
     position: absolute;
     top: 50px;
     margin-left: 2rem;
+    display: inline-block;
 }
 
 .logors {
-    width: 4%;    
+    width: 40px;    
     object-fit: contain;
     border-radius: 30px;
 }

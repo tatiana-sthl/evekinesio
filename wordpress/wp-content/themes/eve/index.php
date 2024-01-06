@@ -20,14 +20,14 @@
   </div>
 </nav>
 
-<!-- <div class="containerrs">
-  <a href="https://www.facebook.com/eve.kinesio">
+<div class="containerrs">
+  <a href="https://www.facebook.com/eve.kinesio" target="_blank">
     <img src="http://evekinesio.fr/wp-content/uploads/2023/11/fbgreen.jpg" alt="logo fb" class="logors" />
   </a>
-  <a href="https://www.instagram.com/eve.kinesio/">
+  <a href="https://www.instagram.com/eve.kinesio/" target="_blank">
     <img src="http://evekinesio.fr/wp-content/uploads/2023/11/instagreen.jpg" alt="logo insta" class="logors" />
   </a>
-</div> -->
+</div>
 
 <div id="presentation" class="presentation">
   <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logo">

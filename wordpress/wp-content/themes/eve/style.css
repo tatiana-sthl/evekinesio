@@ -738,5 +738,13 @@ div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpfo
         position: relative;
     }
 
+    .contact {
+        display: block;
+    }
+
+    .logoContact {
+        width: 100%;
+    }
+
 }
 

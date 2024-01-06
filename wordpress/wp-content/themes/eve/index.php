@@ -10,11 +10,11 @@
           <span class="line line3"></span>
         </div>  
       <div class="menu-items">
-        <li><a href="presentation">Presentation</a></li>
-        <li><a href="pratiques">Mes pratiques</a></li>
-        <li><a href="#">Avis</a></li>
-        <li><a href="#">Planning</a></li>
-        <li><a href="#">Me contacter</a></li>
+        <li><a href="#presentation">Presentation</a></li>
+        <li><a href="#pratiques">Mes pratiques</a></li>
+        <li><a href="#testimonials">Avis</a></li>
+        <li><a href="#planning">Planning</a></li>
+        <li><a href="#contact">Me contacter</a></li>
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@
   </a>
 </div>
 
-<div id="presentation" class="presentation">
+<div class="presentation">
   <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logo">
   <div class="textPresentation">
     <img src="http://evekinesio.fr/wp-content/uploads/2023/10/logo_eve__1_-removebg-preview.png" alt='Eve' class="imgJaffa">
@@ -43,7 +43,7 @@
 </div>
 
     
-<div class="paragrapheKinesio">
+<div id="presentation" class="paragrapheKinesio">
   <h3 class="h3Eve"> La Kinésiologie c’est quoi et qui suis-je ? </h3>
   <p class="pEve">
     Un moment que je consacre à votre animal, ou à vous-même, afin de débloquer certaines zones parfois douloureuses tant émotionnellement que physiologiquement.<br>
@@ -131,7 +131,7 @@
   <span>François de LA ROCHEFOUCAULD</span>
 </blockquote>
 
-<div class="rdv">
+<div id="planning" class="rdv">
   <h1>Prendre rendez-vous</h1>
   <p><i>Je me déplace à votre domicile, pensez à prendre rendez-vous dans le département qui vous concerne.<br>Pour toutes demandes en dehors de ces départements, veuillez me contacter directement par mail.</i></p>
 
@@ -153,7 +153,7 @@
   </div>
 </div>
 
-<div class="avis">
+<div id='testimonials' class="avis">
   <h1>Témoignages</h1>
   <p><i>A défaut d'avoir les avis des animaux, je peux au moins vous communiquer ceux de leur propriétaire.</i></p>
   <div class="carousel-container">
@@ -190,7 +190,7 @@
 </blockquote>
 
 
-<div>
+<div id="contact">
   <h1 class="h1Contact">Contact</h1>
   <div class="contact">
     <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logoContact">

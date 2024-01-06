@@ -46,6 +46,10 @@ Version: 1.0
     font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 1vw 15vw;
     font-family: 'CaviarDreams', monospace;
@@ -441,6 +445,7 @@ ul li a:hover {
     border-radius: 15px;
     padding: 1rem;
     margin-bottom: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 2.6px 2.6px 3.4px;
 }
 
 .logoContact {
@@ -472,7 +477,7 @@ div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpfo
     }
 
     .containerrs {
-        text-align: right;
+        text-align: center;
         margin-right: 4rem;
     }
 

@@ -462,6 +462,14 @@ div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpfo
     background-color: #333333!important;
 }
 
+/******************/
+/*mentions légales*/
+/******************/
+
+.return-button {
+    font-size: x-large;
+    font-weight: bold;
+}
   
   
 

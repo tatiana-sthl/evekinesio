@@ -468,12 +468,12 @@ div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpfo
 
 .h1legal {
     padding: 2rem 0;
-    margin: 0 1rem;
+    margin: 2rem;
     border-bottom:#333333 solid 1px;
 }
 
 .textlegal {
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .return-button {

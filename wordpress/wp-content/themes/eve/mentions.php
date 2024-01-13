@@ -31,6 +31,15 @@ Gestionnaire du site : Tatiana STAHLI <br>
 Directeur et responsable de la publication / rédaction : Eve GIRARDOT<br>
 </p>
 
+<h3 class="textlegal">4. Propriété Intellectuelle</h3>
+<p class="textlegal">Les informations et données qui figurent sur ce site sont protégées par les dispositions légales relatives aux droits de propriété intellectuelle. Toute représentation, reproduction, utilisation, adaptation ou modification de ces informations est prohibée sans autorisation, incluant les documents iconographiques et photographiques. Toute reproduction, totale ou partielle, de ce site ou d’un ou de plusieurs de ses composants, par quelque procédé que ce soit, sans autorisation écrite de Eve GIRARDOT est totalement interdite et constituerait une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la propriété intellectuelle française.</p>
+
+<h3 class="textlegal">5. Respect de la vie privée</h3>
+<p class="textlegal">Les informations que vous communiquez via les formulaires qui peuvent être présents sur ce site permettent de répondre à vos demandes. Vous disposez, conformément à la loi française n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, d’un droit de rectification, de modification et de suppression des données qui vous concernent. Vous pouvez exercer vos droits de rectification, de modification et de suppression en nous contactant par courriel ou par téléphone.</p>
+
+<h3 class="textlegal">6. Droit applicable en cas de litiges</h3>
+<p class="textlegal">La langue du présent contrat est la langue française. Les présentes conditions de vente sont soumises à la loi française. En cas de litige, les tribunaux français seront les seuls compétents.</p>
+
 <footer class="site__footer">
     <a class="return-button" href="http://evekinesio.fr">Retourner sur le site</a>
     <p class="menu-bas-de-page">&copy;2023 - eve.kinesio - Tous droits réservés</p>

@@ -25,3 +25,8 @@ function add_script_testimonial() {
 	wp_enqueue_script('testimonial', get_template_directory_uri() . '/js/testimonial.js', array('jquery'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'add_script_testimonial');
+
+function add_script_scroll() {
+	wp_enqueue_script('scroll', get_template_directory_uri() . '/js/scroll.js', array('jquery'), '1.0', true);
+}
+add_action('wp_enqueue_scripts', 'add_script_scroll');

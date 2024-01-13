@@ -20,7 +20,7 @@
   </div>
 </nav>
 
-<div class="containerrs">
+<div class="containerrs fade-in">
   <a href="https://www.facebook.com/eve.kinesio" target="_blank">
     <img src="http://evekinesio.fr/wp-content/uploads/2023/11/fbgreen.jpg" alt="logo fb" class="logors" />
   </a>
@@ -29,7 +29,7 @@
   </a>
 </div>
 
-<div class="presentation">
+<div class="presentation fade-in">
   <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logo">
   <div class="textPresentation">
     <img src="http://evekinesio.fr/wp-content/uploads/2023/10/logo_eve__1_-removebg-preview.png" alt='Eve' class="imgJaffa">
@@ -43,7 +43,7 @@
 </div>
 
     
-<div id="presentation" class="paragrapheKinesio">
+<div id="presentation" class="paragrapheKinesio fade-in">
   <h3 class="h3Eve"> La Kinésiologie c’est quoi et qui suis-je ? </h3>
   <p class="pEve">
     Un moment que je consacre à votre animal, ou à vous-même, afin de débloquer certaines zones parfois douloureuses tant émotionnellement que physiologiquement.<br>
@@ -53,13 +53,13 @@
     Et moi, je suis simplement une amoureuse des animaux depuis toujours,. Diplômée à la base dans le domaine équestre j’ai finalement perdu de vue ce monde cher à mes yeux quelque temps. Et cela m’a fait comprendre une chose... que je voulais retourner auprès d’eux et de manière efficace pour leur bien-être.<br></p>
 </div>
 
-<blockquote class="otro-blockquote">
+<blockquote class="otro-blockquote side-appear fade-in">
   Lorsque nous mettons des mots sur des maux, les dits maux deviennent des mots dits et cessent d'être maudits.
   <span>Guy CORNEAU</span>
 </blockquote>
 
 
-<div id="pratiques" class="pratiques">
+<div id="pratiques" class="pratiques fade-in">
   <div class="textPratiques">
     <div class='containerImg'>
       <img src="http://evekinesio.fr/wp-content/uploads/2023/10/img2-1.png" alt="seance" class="imgHuman"/>
@@ -87,7 +87,7 @@
   </div>
 </div>
 
-<div class="prices">
+<div class="prices fade-in">
   <div class="textPrices">
     <h1>Ce que je vous propose</h1>
     <div class="priceDetails">
@@ -126,12 +126,12 @@
   </div>
 </div>
 
-<blockquote class="otro-blockquote">
+<blockquote class="otro-blockquote side-appear fade-in">
   Les biens et les maux qui nous arrivent ne nous touchent pas selon leur grandeur, mais selon notre sensibilité.
   <span>François de LA ROCHEFOUCAULD</span>
 </blockquote>
 
-<div id="planning" class="rdv">
+<div id="planning" class="rdv fade-in">
   <h1>Prendre rendez-vous</h1>
   <p><i>Je me déplace à votre domicile, pensez à prendre rendez-vous dans le département qui vous concerne.<br>Pour toutes demandes en dehors de ces départements, veuillez me contacter directement par mail.</i></p>
 
@@ -153,7 +153,7 @@
   </div>
 </div>
 
-<div id='testimonials' class="avis">
+<div id='testimonials' class="avis fade-in">
   <h1>Témoignages</h1>
   <p><i>A défaut d'avoir les avis des animaux, je peux au moins vous communiquer ceux de leur propriétaire.</i></p>
   <div class="carousel-container">
@@ -184,7 +184,7 @@
   </div>
 </div>
 
-<blockquote class="otro-blockquote">
+<blockquote class="otro-blockquote side-appear fade-in">
   Le plus grand bien que nous faisons aux autres hommes n'est pas de leur communiquer notre richesse, mais de leur révéler la leur.
   <span>Louis LAVELLE</span>
 </blockquote>
@@ -192,7 +192,7 @@
 
 <div id="contact">
   <h1 class="h1Contact">Contact</h1>
-  <div class="contact">
+  <div class="contact fade-in">
     <img src="http://evekinesio.fr/wp-content/uploads/2023/10/imglogo-removebg-preview.png" alt="Logo" class="logoContact">
     <?php echo do_shortcode('[wpforms id="183" title="false"]'); ?>
   </div>

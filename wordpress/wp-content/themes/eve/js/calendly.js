@@ -20,11 +20,10 @@ function showCalendly(selectedPlace) {
     'seance-de-kinesiologie': 'https://calendly.com/evegirardot/seance-de-kinesiologie?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=71a152',
     'seance-de-kinesiologie-troyes': 'https://calendly.com/evegirardot/seance-de-kinesiologie-troyes?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=dbc472',
     'seance-de-kinesiologie-dijon': 'https://calendly.com/evegirardot/seance-de-kinesiologie-dijon?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=333333',
-    // Ajoutez d'autres liens pour chaque lieu au besoin
   };
 
   // Changez dynamiquement le lien du widget Calendly
-  calendlyWidget.innerHTML = '<div class="calendly-inline-widget" data-url="' + calendlyLinks[selectedPlace] + '" style="min-width:320px;height:700px;"></div>';
+  calendlyWidget.innerHTML = '<div class="calendly-inline-widget" data-url="' + 'https://calendly.com/evegirardot/seance-de-kinesiologie?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=71a152' + '" style="min-width:320px;height:700px;"></div>';
 
   // Rechargez le script externe Calendly pour mettre à jour le widget
   var script = document.createElement('script');

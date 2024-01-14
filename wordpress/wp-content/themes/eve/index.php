@@ -133,7 +133,7 @@
 
 <div id="planning" class="rdv fade-in">
   <h1>Prendre rendez-vous</h1>
-  <p><i>Je me déplace à votre domicile, pensez à prendre rendez-vous dans le département qui vous concerne.<br>Pour toutes demandes en dehors de ces départements, veuillez me contacter directement par mail.</i></p>
+  <p><i>Je me déplace à votre domicile, vous pouvez prendre rdv via le calendrier ci-dessous.<br>Pour toutes demandes en dehors de Charente-Maritime, veuillez me contacter directement par mail via <a href="#contact"><b style="color: #71a152;">ce formulaire de contact</b></a>.</i></p>
 
   <div class="lieux">
     <!-- Boutons pour chaque lieu -->
@@ -141,11 +141,11 @@
       <input type="radio" class="buttons" id="charente" name="location" checked>
       <label for="charente" onclick="showCalendly('seance-de-kinesiologie')">• Charente-Maritime •</label>
 
-      <input type="radio" class="buttons" id="aube" name="location">
+      <!-- <input type="radio" class="buttons" id="aube" name="location">
       <label for="aube" onclick="showCalendly('seance-de-kinesiologie-troyes')">• Aube •</label>
 
       <input type="radio" class="buttons" id="cote" name="location">
-      <label for="cote" onclick="showCalendly('seance-de-kinesiologie-dijon')">• Morbihan •</label>
+      <label for="cote" onclick="showCalendly('seance-de-kinesiologie-dijon')">• Morbihan •</label> -->
     </div>
 
     <!-- Le widget Calendly sera chargé ici -->

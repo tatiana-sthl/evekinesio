@@ -1,25 +1,23 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const marginAfterScrollStop = 20; // Ajustez cette valeur selon vos besoins
-  let isScrollStopped = false;
+  const fadeElements = document.querySelectorAll('.fade-in');
 
-  function applyMargin() {
-    window.scrollTo(0, marginAfterScrollStop);
-    isScrollStopped = false;
-  }
+  function fadeInElements(elements) {
+    elements.forEach(element => {
+      const elementPosition = element.getBoundingClientRect().top;
+      const screenHeight = window.innerHeight;
 
-  function handleScroll() {
-    if (window.scrollY === 0) {
-      // Si la fenêtre est remontée au début de la page, appliquez la marge
-      if (isScrollStopped) {
-        applyMargin();
+      if (elementPosition < screenHeight) {
+        element.style.opacity = 1;
+        element.style.transform = 'translateY(0)';
       }
-      isScrollStopped = true;
-    } else {
-      // Si le défilement ne s'est pas arrêté, réinitialisez le drapeau
-      isScrollStopped = false;
-    }
+    });
   }
 
-  // Ajoutez un écouteur d'événements de défilement
-  window.addEventListener('scroll', handleScroll);
+  // Appelez les fonctions initialement
+  fadeInElements(fadeElements);
+
+  // Ajoutez des écouteurs d'événements de défilement
+  window.addEventListener('scroll', function() {
+    fadeInElements(fadeElements);
+  });
 });

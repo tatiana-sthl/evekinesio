@@ -485,14 +485,21 @@ div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpfo
 /*mentions légales*/
 /******************/
 
+.divlegal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #050505 solid 1px;
+}
+
 .h1legal {
     padding: 2rem 0;
     margin: 2rem;
-    border-bottom:#333333 solid 1px;
 }
 
 .textlegal {
     margin: 2rem;
+    text-align: justify;
 }
 
 .return-button {

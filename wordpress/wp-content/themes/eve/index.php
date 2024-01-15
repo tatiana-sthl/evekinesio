@@ -133,7 +133,10 @@
 
 <div id="planning" class="rdv fade-in">
   <h1>Prendre rendez-vous</h1>
-  <p><i>Je me déplace à votre domicile, vous pouvez prendre rdv via le calendrier ci-dessous.<br>Pour toutes demandes en dehors de Charente-Maritime, veuillez me contacter directement par mail via <a href="#contact"><b style="color: #71a152;">ce formulaire de contact</b></a>.</i></p>
+  <div class="divdepartements">
+    <h3 class="namedepartements">Aube · Côte d-Or · Morbihan </h3>
+    <p>Je me déplace régulièrement dans ces trois département. <br> Pour prendre rdv, veuillez me contacter directement par mail via <a href="#contact"><b style="color: #71a152;">le formulaire de contact</b></a>.</p>
+  </div>
 
   <div class="lieux">
     <!-- Boutons pour chaque lieu -->
@@ -147,6 +150,8 @@
       <input type="radio" class="buttons" id="cote" name="location">
       <label for="cote" onclick="showCalendly('seance-de-kinesiologie-dijon')">• Morbihan •</label> -->
     </div>
+    <p class="textcharente"><i>Je me déplace à votre domicile, vous pouvez prendre rdv via le calendrier ci-dessous.</i></p>
+
 
     <!-- Le widget Calendly sera chargé ici -->
     <div id="calendly-widget"></div>
@@ -159,7 +164,7 @@
   <div class="carousel-container">
     <div class="testimonial-carousel">
         <div class="testimonial">
-            <p>Randy et Jean, mes deux chiens, vont mieux depuis que Eve est intervenue. Ils nous font plus confiance et sont plus sereins. Encore un grand merci.</p>
+            <p>Randy, mon chien et Jean, mon compagnon, vont mieux depuis que Eve est intervenue. Randy nous fait plus confiance et Jean, après une période difficile anticipée par Eve, a pu retrouver son équilibre. Encore un grand merci.</p>
             <p class="author">- Lucie</p>
         </div>
         <div class="testimonial">
@@ -167,12 +172,12 @@
             <p class="author">- Christine</p>
         </div>
         <div class="testimonial">
-            <p>Plus que ravie de la séance de mon Papi de 25 ans !  Suite au passage de Eve, mon cheval est comme apaisé, plus libre dans son esprit et beaucoup plus d'entrain. Une grand merci pour lui ! </p>
-            <p class="author">- Laurie</p>
+            <p>Plus que ravie de la séance de mon Papi de 25 ans ! Suite au passage de Eve, mon cheval est comme apaisé, plus libre dans son esprit et beaucoup plus d'entrain. Une grand merci pour lui ! </p>
+            <p class="author">- Morgane</p>
         </div>
         <div class="testimonial">
             <p>Je n'ai jamais vu Comod, mon chien, dans un tel état de plénitude, d'abandon, de confiance et de calme. La séance fut très enrichissante. Je ne peux que recommander Eve.</p>
-            <p class="author">- Isabelle</p>
+            <p class="author">- Virginie</p>
         </div>
         <div class="testimonial">
             <p>Eve est intervenue sur mes deux chiens, Paloma et Jaffa, et a su les mettre totalement en confiance. Je n'hésiterai pas à refaire appel à elle pour d'autres problématiques.</p>

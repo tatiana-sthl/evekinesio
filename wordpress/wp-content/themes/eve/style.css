@@ -351,6 +351,21 @@ ul li a:hover {
     margin-top: 4rem;
 }
 
+.textcharente {
+    margin: 2rem 22rem 0 22rem;
+}
+
+.divdepartements{
+    border: #DBC472 solid 1px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 2.6px 2.6px 3.4px;
+    margin: 0 12rem;
+}
+
+.namedepartements {
+    color: #71a152;
+    font-weight: 900;
+}
 
 #button-container input[type="radio"] {
     display: none;
@@ -774,6 +789,15 @@ div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpfo
 
     .lieux {
         margin: 0;
+    }
+
+    .textcharente {
+        margin: 0;
+    }
+
+    .divdepartements {
+        margin: 0;
+        padding: 1rem;
     }
 
     .testimonial-carousel {

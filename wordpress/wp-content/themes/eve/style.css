@@ -130,13 +130,6 @@ ul li a:hover {
     transition: opacity 1.6s ease, transform 1.6s ease;
 }
 
-.side-appear {
-    opacity: 0;
-    transform: translateX(-20px); /* Ajustez la valeur selon la direction souhaitée */
-    transition: opacity 1.6s ease, transform 1.6s ease;
-}
- 
-
 
 /* presentation */
 
@@ -185,7 +178,6 @@ ul li a:hover {
 
 .imgJaffa {
     width: 50%;
-    height: 47%;
     margin-top: 2rem;
     position: relative;
 }
